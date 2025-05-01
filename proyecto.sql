@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS ´proyecto´;
+DROP DATABASE IF EXISTS `proyecto`;
 
-CREATE DATABASE ´proyecto´;
+CREATE DATABASE `proyecto`;
 
-USE ´proyecto´;
+USE `proyecto`;
 
 CREATE TABLE users (
     id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,

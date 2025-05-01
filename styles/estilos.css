@@ -27,12 +27,19 @@ a:active{
     color: green;
 }
 
+.back-link {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    color: #3498db;
+}
+
 div {
     background-color: #fff;
     border: 1px solid #ddd;
     border-left: 5px solid #3498db;
     margin: 0 auto 30px;
-    padding: 30px;
+    padding: 10px;
     max-width: 550px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -58,11 +65,4 @@ button {
 
 button:hover {
     background-color: #2980b9;
-}
-
-.back-link {
-    display: block;
-    text-align: center;
-    margin: 20px;
-    color: #3498db;
 }
