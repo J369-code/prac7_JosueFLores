@@ -32,11 +32,10 @@ CREATE TABLE comments (
     FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE
 );
 
---datos de prueba
-INSERT INTO users (user_name, age, email, password) VALUES
-('Juan Pérez', 30, 'juan@example.com', '123456'),
-('Ana Gómez', 25, 'ana@example.com', 'abcdef'),
-('Luis Torres', 35, 'luis@example.com', '654321');
+INSERT INTO users (user_name) VALUES
+('Juan Pérez'),
+('Ana Gómez'),
+('Luis Torres');
 
 INSERT INTO posts (title, content, user_id) VALUES
 ('Primera publicación', 'Nuevo contenido pronto.', 1),
