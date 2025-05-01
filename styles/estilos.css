@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: red ;
+    text-decoration: underline;
+}
+
+a:active{
+    color: green;
+}
+
+div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-left: 5px solid #3498db;
+    margin: 0 auto 30px;
+    padding: 30px;
+    max-width: 550px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+strong {
+    color: #555;
+}
+
+textarea, input[type="text"], input[type="number"], button {
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin: 5px 0 15px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    color: #3498db;
+}
